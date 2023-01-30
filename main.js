@@ -1,7 +1,12 @@
 const app = Vue.createApp({
     data() {
         return {
-            product: 'Socks'
+            producto: 'Socks',
+            imagen: './assets/images/socks_green.jpg',
+            url: 'https://calcetines.com'
         }
     }
 })
+
+// Mount app
+const mountedApp = app.mount('#app')
